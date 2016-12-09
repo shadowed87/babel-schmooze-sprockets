@@ -6,11 +6,13 @@ module BabelSchmoozeSprockets
 
     DEFAULT_PLUGINS = %w[
       external-helpers
+      add-module-exports
       transform-async-to-generator
       transform-es2015-modules-amd
       transform-es3-member-expression-literals
       transform-es3-property-literals
       transform-function-bind
+      transform-class-properties
     ].freeze
 
     DEFAULT_BABEL_OPTIONS = {
